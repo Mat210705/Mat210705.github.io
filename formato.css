@@ -1,0 +1,121 @@
+main {
+    width: 80px;
+    background-color: white;
+}
+
+body {
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    background-image: url(Imagenes/fondo3d1.jpg);
+    background-size: 300%;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+    background: black;
+}
+
+.wraperr {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo {
+    background: none;
+    line-height: 50px;
+    float: left;
+    padding: 20px;
+}
+
+.logo p {
+    color: white;
+    margin: 0px;
+    padding: 0px 0px;
+    float: right;
+}
+
+header nav {
+    padding: 30px
+}
+
+header nav a {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 10px 7px;
+    line-height: normal;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    background: rgb(180, 223, 248);
+    border-radius: 20px;
+}
+
+.verMas {
+    display: flex;
+    justify-content: center;
+    margin: 0% 40%;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.verMas:hover {
+    background: lightgoldenrodyellow;
+    color: black;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: rgb(101, 176, 246);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.SeccionCeroImg {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(101, 176, 246);
+    border: 3px solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+li {
+    display: inline-flex;
+    margin: 0px auto;
+    padding: 0px;
+    border: 0px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+figcaption a {
+    text-decoration: none;
+    color: rgb(197, 195, 41)
+}
